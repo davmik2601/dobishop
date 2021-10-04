@@ -1,0 +1,28 @@
+.alert {
+  position: fixed;
+  bottom: 30px;
+  right: 1%;
+  z-index: 1000;
+  width: 20%;
+  min-width: 250px;
+}
+
+.alert .close {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  padding: 0;
+  font-size: 28px;
+}
+
+.alert .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .4rem .5rem .3rem;
+  height: 40px;
+}
+
+.alert .card-body {
+  padding: .2rem .5rem .4rem;
+}

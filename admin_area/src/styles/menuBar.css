@@ -1,0 +1,19 @@
+.menu_bar {
+  min-width: 23vh;
+  background: #42a2ce;
+}
+
+.menu_bar .menu_list {
+  margin-top: 50px;
+}
+
+.menu_bar .menu_list .list-group-item {
+  background-color: transparent!important;
+  color: white;
+  padding: .5rem;
+}
+
+.menu_bar .menu_list .list-group-item։hover {
+  background-color: red!important;
+  color: green;
+}

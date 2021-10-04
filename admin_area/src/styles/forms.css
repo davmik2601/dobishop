@@ -1,0 +1,15 @@
+.form_parent {
+  border: 2px dotted #42a2ce;
+  width: 100%;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+.validation_error {
+  background: rgb(255, 205, 205);
+  color: red;
+  border: 1px solid lightgray;
+  border-radius: 8px 8px 0 0;
+  padding: 5px 10px 12px;
+  margin-bottom: -8px;
+}

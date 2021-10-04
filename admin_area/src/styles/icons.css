@@ -1,0 +1,42 @@
+/* *************** Close Span **************** */
+.close {
+  cursor: pointer;
+  font-size: 25px;
+  padding: 4px 6px;
+  z-index: 2;
+}
+.close:hover {
+  font-weight: bold;
+  color: black;
+  transform: scale(1.2, 1.2);
+}
+
+.input_clear {
+  position: absolute;
+  cursor: pointer;
+  font-size: 25px;
+  z-index: 2;
+  padding: 0 4px 4px;
+  top: 47%;
+  right: 2px;
+  transform: translate(0, -50%);
+}
+.input_clear:hover {
+  transform: translate(0, -50%) scale(1.2, 1.2);
+}
+
+/* **************** Icons ***************** */
+.material-icons {
+  cursor: pointer;
+  padding: 3px 4px;
+}
+.delete_icon:hover {
+  color: red;
+}
+.edit_icon:hover {
+  color: blue;
+}
+.add_icon:hover {
+  color: green;
+}
+

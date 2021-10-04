@@ -1,0 +1,35 @@
+.add_product_board {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  height: 800px;
+  padding: 5px;
+}
+
+.add_product_board > div {
+  border: 1px solid;
+  height: 100%;
+  padding: 10px;
+}
+
+.add_product_board .left {
+  width: 46%;
+}
+
+.add_product_board .right {
+  width: 53%;
+}
+
+.add_product_board .form_selected_ctgs {
+  /* border: 1px solid; */
+  width: 100%;
+  min-height: 100%;
+  /* padding: 0 8px; */
+}
+.add_product_board .form_selected_ctg {
+  border: 1px solid grey;
+  margin: 2px 4px;
+  padding: 3px 5px;
+  display: inline-block;
+}
